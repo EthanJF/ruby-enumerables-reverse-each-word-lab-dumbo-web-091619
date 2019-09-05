@@ -3,5 +3,3 @@ def reverse_each_word(string)
   reversed_words = collect.words{|i| i.reverse}
   reversed_words
 end
-
-reverse_each_word("Hello my dear")
